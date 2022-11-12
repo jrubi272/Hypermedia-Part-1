@@ -1,0 +1,88 @@
+body{
+   width: 96%;
+   font-family:Verdana,Arial, serif;
+   margin: 0 auto;
+}
+
+h2{
+   font-family:Georgia, Times, serif;
+   font-style:italic;
+   width: 200px; 
+}
+
+header {
+   font-family:Georgia, Times, serif;
+   font-size:1.2rem; 
+   background-color:#211c46;
+   color: #6da4de;
+}
+
+body > header{
+
+   margin: 0px;
+   padding:20px;
+}
+
+#main-content{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: stretch;
+}
+
+
+.personal > img{
+   width: 157.1px;
+   height: 209.45px;
+   float: right;
+   padding-right: 10px;
+   padding-left: 40px;
+   padding-bottom: 20px;
+}
+
+.contact{
+   flex-basis: 200px;
+   background-color: #6da4de;
+   padding-top: 20px;
+   padding-left: 10px;
+   padding-right: 50px;
+}
+
+.contact > img{
+   width: 20.48px;
+   height: 20.48px;
+   float: left;
+   padding-right: 10px;
+}
+
+.contact > hr{
+
+   width: 75%;
+   height: 1px;
+   border: 0;
+   background: black;
+   float: left;
+    
+}
+
+.contact > .skills > ul{
+	list-style-image: url('star2.png'); 
+}
+
+.contact > .languages > ul{
+	list-style-image: url('language2.png'); 
+}
+.contact > .skills > ul > img{
+   width: 20.48px;
+   height: 20.48px;
+}
+
+.contact > .languages > ul > img{
+   width: 20.48px;
+   height: 20.48px;
+}
+
+
+
+
+
